@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MovieReview</string>
+    <string name="et_movie_hint">Enter the title of movie</string>
+    <string name="et_description_hint">Enter a short description of the movie</string>
+    <string name="tv_display">Name</string>
+    <string name="tv_password">Description</string>
+    <string name="btn_text">ADD MOVIE</string>
+    <string name="rbtn1_text">English</string>
+    <string name="rbtn2_text">Chinese</string>
+    <string name="rbtn3_text">Malay</string>
+    <string name="rbtn4_text">Tamil</string>
 </resources>

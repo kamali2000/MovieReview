@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".viewMovieDetails"
+        android:orientation="vertical" >
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            app:srcCompat="@drawable/record"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title:" android:textSize="18sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venom"
+            android:textSize="20sp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Overview:" android:textSize="18sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When Eddie Brock acquires the powers of a symbiote, he will have to release his alter-ego Venom to save his life."
+            android:textSize="20sp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language:" android:textSize="18sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:textSize="20sp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Release date:" android:textSize="18sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="03-10-2018"
+            android:textSize="20sp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suitable for children below 13:" android:textSize="18sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="20sp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"/>
+
+</LinearLayout>
